@@ -8,8 +8,8 @@
     <meta name="robots" content="index, follow">
     <meta name="author" content="Melvin Garita Mora">
     <link rel="canonical" href="https://melvingarita.com/thoughts/">
-    <meta property="og:title" content="Thoughts — Melvin Garita">
-    <meta property="og:description" content="Perspectives on institutional leadership in banking — and how financial institutions create, sustain, or quietly erode value.">
+    <meta property="og:title" content="Thoughts on Banking & Institutional Leadership · Melvin Garita">
+    <meta property="og:description" content="Perspectives on institutional leadership in banking. Featured series: Strategic Divergence — why financial institutions converge and how deliberate divergence creates enterprise value. Published in La República, El Financiero, CNN en Español.">
     <meta property="og:image" content="https://melvingarita.com/og-image.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -18,8 +18,8 @@
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Melvin Garita">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Thoughts — Melvin Garita">
-    <meta name="twitter:description" content="Perspectives on institutional leadership in banking — and how financial institutions create, sustain, or quietly erode value.">
+    <meta name="twitter:title" content="Thoughts on Banking & Institutional Leadership · Melvin Garita">
+    <meta name="twitter:description" content="Perspectives on institutional leadership in banking. Featured series: Strategic Divergence — why financial institutions converge and how deliberate divergence creates enterprise value. Published in La República, El Financiero, CNN en Español.">
     <meta name="twitter:image" content="https://melvingarita.com/og-image.jpg">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -63,28 +63,15 @@
         .section-label { font-family: 'Inter', sans-serif; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 2px; color: var(--gold); margin-bottom: 12px; }
         .section h2 { font-family: 'Playfair Display', serif; font-size: 1.8rem; color: var(--navy); margin-bottom: 20px; }
 
-        /* FEATURED SERIES */
+        /* FEATURED SERIES — entry card to the dedicated section */
         .featured { background: linear-gradient(135deg, #1B2A4A 0%, #243556 100%); padding: 80px 40px; }
         .featured-inner { max-width: 800px; margin: 0 auto; }
         .featured-label { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 2px; color: var(--gold); margin-bottom: 24px; }
         .featured-question { font-family: 'Playfair Display', serif; font-size: 1.5rem; color: var(--white); line-height: 1.5; margin-bottom: 20px; }
-        .featured-text { color: rgba(255,255,255,0.75); font-size: 1rem; line-height: 1.7; margin-bottom: 40px; }
-
-        .phases-grid { margin: 40px 0; }
-        .phase-item { display: flex; align-items: baseline; gap: 16px; padding: 14px 0; border-bottom: 1px solid rgba(255,255,255,0.06); }
-        .phase-number { font-family: 'Playfair Display', serif; color: var(--gold); font-size: 0.9rem; min-width: 20px; }
-        .phase-name { color: var(--white); font-size: 0.95rem; }
-        .phase-count { color: rgba(255,255,255,0.5); font-size: 0.8rem; margin-top: 20px; font-style: italic; }
-        .featured-cta { display: inline-block; margin-top: 30px; color: var(--gold); border: 1px solid var(--gold); padding: 12px 28px; text-decoration: none; font-size: 0.85rem; letter-spacing: 0.5px; border-radius: 3px; transition: all 0.25s ease; }
+        .featured-text { color: rgba(255,255,255,0.75); font-size: 1rem; line-height: 1.7; margin-bottom: 32px; }
+        .phase-count { color: rgba(255,255,255,0.55); font-size: 0.8rem; font-style: italic; margin-bottom: 24px; letter-spacing: 0.5px; }
+        .featured-cta { display: inline-block; margin-top: 8px; color: var(--gold); border: 1px solid var(--gold); padding: 12px 28px; text-decoration: none; font-size: 0.85rem; letter-spacing: 0.5px; border-radius: 3px; transition: all 0.25s ease; }
         .featured-cta:hover { background: var(--gold); color: var(--navy); }
-
-        /* NEXT ARTICLE */
-        .next-section { background: var(--warm-gray); padding: 60px 40px; }
-        .next-inner { max-width: 800px; margin: 0 auto; }
-        .next-card { background: white; padding: 40px; border-left: 3px solid var(--gold); }
-        .next-card h3 { font-family: 'Playfair Display', serif; font-size: 1.3rem; color: var(--navy); margin-bottom: 12px; }
-        .next-card p { color: #666; font-size: 0.95rem; line-height: 1.6; }
-        .next-date { color: var(--gold); font-size: 0.8rem; letter-spacing: 1px; text-transform: uppercase; margin-top: 16px; }
 
         /* ARTICLES LIST */
         .articles-section { padding: 70px 40px; max-width: 900px; margin: 0 auto; }
@@ -166,7 +153,6 @@
             .section { padding: 50px 20px; }
             .featured { padding: 50px 20px; }
             .featured-question { font-size: 1.2rem; }
-            .next-section { padding: 40px 20px; }
             .articles-section { padding: 50px 20px; }
             .compact-section { padding: 40px 20px; }
             .compact-list li { flex-direction: column; align-items: flex-start; gap: 4px; }
@@ -195,7 +181,7 @@
             <li><a href="/about">About</a></li>
             <li><a href="#connect">Connect</a></li>
         </ul>
-        <button class="hamburger" aria-label="Menu" aria-expanded="false">&#9776;</button>
+        <button class="hamburger" aria-label="Menu" aria-expanded="false">☰</button>
     </div>
 </nav>
 
@@ -206,36 +192,14 @@
     <p class="media-badges">CNN en Espa&ntilde;ol &middot; La Naci&oacute;n &middot; El Financiero &middot; La Rep&uacute;blica</p>
 </header>
 
-<!-- FEATURED SERIES -->
+<!-- FEATURED SERIES — entry card to dedicated section -->
 <section class="featured fade-in">
     <div class="featured-inner">
-        <p class="featured-label">Featured Series</p>
+        <p class="featured-label">Featured Series &middot; Strategic Divergence</p>
         <p class="featured-question">Why do financial institutions with different mandates, capabilities, and competitive realities end up pursuing similar strategies &mdash; and why does strategic convergence quietly erode enterprise value?</p>
         <p class="featured-text">The few institutions that create lasting advantage deliberately diverge. This series examines what deliberate divergence requires &mdash; and why most organizations resist it.</p>
-
-        <div class="phases-grid">
-            <div class="phase-item"><span class="phase-number">1</span><span class="phase-name">La trampa de la complacencia</span></div>
-            <div class="phase-item"><span class="phase-number">2</span><span class="phase-name">La anatom&iacute;a real del valor bancario</span></div>
-            <div class="phase-item"><span class="phase-number">3</span><span class="phase-name">El riesgo: donde se hace o se quiebra un banco</span></div>
-            <div class="phase-item"><span class="phase-number">4</span><span class="phase-name">Ejecuci&oacute;n y transformaci&oacute;n</span></div>
-            <div class="phase-item"><span class="phase-number">5</span><span class="phase-name">La infraestructura invisible</span></div>
-            <div class="phase-item"><span class="phase-number">6</span><span class="phase-name">El CEO como formador de criterio</span></div>
-            <div class="phase-item"><span class="phase-number">7</span><span class="phase-name">Divergencia estrat&eacute;gica</span></div>
-        </div>
         <p class="phase-count">7 phases &middot; 21 articles &middot; In progress</p>
-        <a href="https://www.larepublica.net/noticia/convergencia-estrategica" class="featured-cta" target="_blank" rel="noopener">Read the first article &rarr;</a>
-    </div>
-</section>
-
-<!-- WHAT'S NEXT -->
-<section class="next-section fade-in">
-    <div class="next-inner">
-        <p class="section-label">Where my thinking is headed</p>
-        <div class="next-card">
-            <h3>La ilusi&oacute;n de estabilidad</h3>
-            <p>The financial sector is inherently vulnerable to recurring disruptions. These shocks often create systemic instability and lead to capital misallocation rather than genuine stability.</p>
-            <p class="next-date">Summer 2026</p>
-        </div>
+        <a href="/diverge" class="featured-cta">Explore the series &rarr;</a>
     </div>
 </section>
 
@@ -250,7 +214,7 @@
     <div class="article-card">
         <h3>De los prop&oacute;sitos a la ejecuci&oacute;n</h3>
         <p class="article-meta">La Rep&uacute;blica &middot; January 2026</p>
-        <a href="https://www.larepublica.net/noticia/economia-crecera-5-y-esto-significa-mas-inversion-y-negocios-melvin-garita-banco-nacional" class="article-link" target="_blank" rel="noopener">Read article &rarr;</a>
+        <a href="https://www.larepublica.net/noticia/de-los-propositos-a-la-ejecucion" class="article-link" target="_blank" rel="noopener">Read article &rarr;</a>
     </div>
 </section>
 
@@ -258,7 +222,7 @@
 <section class="compact-section fade-in">
     <div class="compact-inner">
         <p class="section-label">Earlier market analysis &middot; El Financiero &middot; 2016&ndash;2018 <span class="lang-badge">ES</span></p>
-        <p class="compact-intro">Written while managing trading desks at Banco Nacional &mdash; reflecting the market judgment that informs my approach to institutional risk.</p>
+        <p class="compact-intro">Earlier market commentary published during my time on the Banco Nacional trading desk (2016&ndash;2018), prior to my current column in La Rep&uacute;blica.</p>
         <ul class="compact-list">
             <li><span class="item-title">Gato por liebre y valoraci&oacute;n a precios de mercado</span><span class="item-date">Sep 2017</span></li>
             <li><span class="item-title">A 10 a&ntilde;os del inicio de la Gran Recesi&oacute;n</span><span class="item-date">Jul 2017</span></li>
@@ -274,17 +238,52 @@
 
     <p class="section-label" style="margin-top:30px;">Featured commentary</p>
     <div class="media-grid">
-        <div class="media-item"><span class="outlet">CNN en Espa&ntilde;ol</span><span class="topic">Economic analysis &mdash; Costa Rica elections</span><span class="date">Feb 2018</span><a href="https://www.youtube.com/watch?v=gYhrb8SuMZM" target="_blank" rel="noopener">Watch &rarr;</a></div>
-        <div class="media-item"><span class="outlet">CNN en Espa&ntilde;ol</span><span class="topic">Speculative capital flows in Costa Rica</span><span class="date">Jan 2013</span></div>
-        <div class="media-item"><span class="outlet">Panorama Digital</span><span class="topic">Economic impact of international conflict</span><span class="date">Mar 2026</span></div>
-        <div class="media-item"><span class="outlet">Punto de Equilibrio</span><span class="topic">Dollar exchange rate hits record low</span><span class="date">May 2026</span></div>
+        <div class="media-item">
+            <span class="outlet">CNN en Espa&ntilde;ol</span>
+            <span class="topic">Economic analysis &mdash; Costa Rica elections</span>
+            <span class="date">Feb 2018</span>
+            <a href="https://www.youtube.com/watch?v=gYhrb8SuMZM" target="_blank" rel="noopener">Watch &rarr;</a>
+        </div>
+        <div class="media-item">
+            <span class="outlet">CNN en Espa&ntilde;ol</span>
+            <span class="topic">Speculative capital flows in Costa Rica</span>
+            <span class="date">Jan 2013</span>
+            <a href="#" target="_blank" rel="noopener">Watch &rarr;</a>
+        </div>
+        <div class="media-item">
+            <span class="outlet">Panorama Digital</span>
+            <span class="topic">Economic impact of international conflict</span>
+            <span class="date">Mar 2026</span>
+            <a href="#" target="_blank" rel="noopener">Watch &rarr;</a>
+        </div>
+        <div class="media-item">
+            <span class="outlet">Punto de Equilibrio</span>
+            <span class="topic">Dollar exchange rate hits record low</span>
+            <span class="date">May 2026</span>
+            <a href="#" target="_blank" rel="noopener">Watch &rarr;</a>
+        </div>
     </div>
 
     <p class="section-label" style="margin-top:40px;">Selected press</p>
     <div class="media-grid">
-        <div class="media-item"><span class="outlet">La Rep&uacute;blica</span><span class="topic">&iquest;Qu&eacute; hacer para detener la ca&iacute;da de la inversi&oacute;n extranjera?</span><span class="date">Jul 2025</span></div>
-        <div class="media-item"><span class="outlet">La Rep&uacute;blica</span><span class="topic">&iquest;Endeudarse en d&oacute;lares o en colones?</span><span class="date">Feb 2024</span></div>
-        <div class="media-item"><span class="outlet">La Naci&oacute;n</span><span class="topic">Deudores deber&iacute;an ser prudentes ante baja en calificaci&oacute;n de Fitch</span><span class="date">2017</span></div>
+        <div class="media-item">
+            <span class="outlet">La Rep&uacute;blica</span>
+            <span class="topic">&iquest;Qu&eacute; hacer para detener la ca&iacute;da de la inversi&oacute;n extranjera?</span>
+            <span class="date">Jul 2025</span>
+            <a href="https://www.larepublica.net/noticia/que-hacer-para-detener-la-caida-de-la-inversion-extranjera" target="_blank" rel="noopener">Read &rarr;</a>
+        </div>
+        <div class="media-item">
+            <span class="outlet">La Rep&uacute;blica</span>
+            <span class="topic">&iquest;Endeudarse en d&oacute;lares o en colones?</span>
+            <span class="date">Feb 2024</span>
+            <a href="https://www.larepublica.net/noticia/endeudarse-en-dolares-o-en-colones-esto-recomienda-el-economista-melvin-garita" target="_blank" rel="noopener">Read &rarr;</a>
+        </div>
+        <div class="media-item">
+            <span class="outlet">La Naci&oacute;n</span>
+            <span class="topic">Deudores deber&iacute;an ser prudentes ante baja en calificaci&oacute;n de Fitch</span>
+            <span class="date">2017</span>
+            <a href="https://www.nacion.com/economia/politica-economica/economista-melvin-garita-deudores-deberian-ser-prudentes-ante-baja-en-calificacion-de-fitch/FVPJCHD34ZE2VKVMZUFLOQXGQQ/story/" target="_blank" rel="noopener">Read &rarr;</a>
+        </div>
     </div>
 </section>
 
